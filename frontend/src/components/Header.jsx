@@ -1,9 +1,9 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { FaShopping, FaShoppingCart, FaUser } from 'react-icons/fa';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <Header>
+        <header>
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <Navbar.Brand href="/">ProShop</Navbar.Brand>
@@ -20,7 +20,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </Header>
+        </header>
     )
 }
 
