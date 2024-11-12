@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const ProductScreens = () => {
   const [product, setProducts] = useState({});
-  const {id: productId} = useParams();
+  const {id: productId} = useParams();   
   useEffect(() => {
     const fetchProducts = async () => {
       const { data } = await axios.get(`/api/products/${productId}`);
